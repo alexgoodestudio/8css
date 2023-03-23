@@ -5,39 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruitive</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
-    <script src="fruitive.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css">
-    <p class="headerTwo">Home</p>
-    
-    <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="locations.html">Our Locations</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<script src="fruitive.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
 
-    <img id="logo" src="logo/fruitivelogo.png"> 
-    <p id =indexParagraph>Your health and happiness are what matter to us. Fruitive’s core motto
+<body>
+    <nav class="navbar navbar-expand-lg navBack ">
+            <img id="logo" src="logo/fruitivelogo.png"> 
+            <section id="navElements1">
+          <button class="navbar-toggler navLink" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active navLink" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="#">Menu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link navLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Locations
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink">Our Story</a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="input" type="search" placeholder="Search" aria-label="Search">
+              <button class="btnSearch" type="submit">Search</button>
+            </form>
+          </div>
+            </section>
+      </nav>
+    </div>
+
+    <img src="./logo/fruitivelogo.png" class="logoDisplay invert">
+    <!-- <h1 class= "container.fluid">PLANT-BASED. SIMPLE. BEAUTIFUL.</h1> -->
+    <!-- <p class="missionStatement container p-3">Your health and happiness are what matter to us. Fruitive’s core motto
         is “Live Your Health”. We hope to help you achieve this by providing
           you with a fully plant-based menu. All Fruitive items are comprised
            of plant-based ingredients such as fruits, veggies, whole grains, 
            legumes, nuts, seeds, herbs, and spices. No matter where you are on 
            your health journey, our wholesome ingredients support taking you to 
            the next level.
-        </p> 
-    <div class="plantBasedBox">
-    <h1 class = h1headerAlign>PLANT-BASED. SIMPLE. BEAUTIFUL.</h1>
-    </div>
-
-     <img id="acai" src="https://images.squarespace-cdn.com/content/v1/58ab3b4ad2b8579b70cfb83b/1576528133747-745CQRZMBEIFKNF1ZZNJ/organic+fruitive+menu.jpg">
-     <div>
-        <img id="juice" src="pictures/-ocg1G9o.jpg">
-        <img id="juice" src="pictures/BDTCT0Mg.jpg">
-        <img id="juice" src="pictures/hmKzkiV4.jpg">
-    </div>   
+        </p>  -->
     </body>
 </html>
+</body>

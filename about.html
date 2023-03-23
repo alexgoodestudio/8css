@@ -5,26 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
         <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
         
-        
-        <p class="headerTwo">Our Roots</p>
+        <nav class="navbar navbar-expand-lg navBack ">
+            <img id="logo" src="logo/fruitivelogo.png"> 
+            <p class=" ourRoots text-light">Our Roots</p>
 
-    <img id="logo" src="logo/fruitivelogo.png"> 
+            <section id="navElements">
+                
+          <button class="navbar-toggler navLink" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active navLink" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="#">Menu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link navLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Locations
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink">Our Story</a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="input" type="search" placeholder="Search" aria-label="Search">
+              <button class="btnSearch" type="submit">Search</button>
+            </form>
+          </div>
+            </section>
+      </nav>
+    </div>
 
-    <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="locations.html">Our Locations</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
 
-    <h2 class="h2headerAlign">Our Roots</h2>
-    <iframe width="100%" height="550" src="https://player.vimeo.com/video/443252887" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-    <p id="aboutParagraph">Fruitive began when Gregg Rozeboom had the idea to create a place where his family could come and everything from the food to the ambiance and customer service would be genuine and authentic. From day one, the company has embraced that vision and strived to treat others the way its team members would want to be treated. It is about more than just food for us, it is about meeting you where you are on your health journey and encouraging you to #LiveYourHealth and #LiveYourValues. </p>
+    <iframe class="video" width="100%" height="550" src="https://player.vimeo.com/video/443252887" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+    <p id="aboutParagraph">Fruitive began when Gregg Rozeboom had the idea to create a place where his family could come and everything from the food to the ambiance and customer service would be genuine and authentic. From day one, the company has embraced that vision and strived to treat others the way its team members would want to be treated. It is about more than just food for us, it is about meeting you where you are on your health journey and encouraging you to <span class="emphasize">#LiveYourHealth</span> and <span class="emphasize">#LiveYourValues.</span> </p>
 </body>
 </html>

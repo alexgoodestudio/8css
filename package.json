@@ -1,7 +1,6 @@
 {
   "name": "week-7-coding-assignment",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +16,8 @@
   },
   "homepage": "https://github.com/alexgoodestudio/week7-html#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.2",
     "jquery": "^3.6.3"
-  }
+  },
+  "description": ""
 }
